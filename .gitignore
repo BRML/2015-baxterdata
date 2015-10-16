@@ -1,0 +1,34 @@
+# Compiler file endings to ignore
+*.aux
+*.acn
+*.acr
+*.alg
+*.bbl
+*.blg
+*.fdb_latexmk
+*.glg
+*.gls
+*.gln
+*.glo
+*.idx
+*.ilg
+*.ind
+*.ist
+*.log
+*.out
+*.gz
+*.toc
+*.lof
+*.lot
+*.dvi
+*.ps
+*.gnuplot
+*.nav
+*.snm
+
+# MacOS X files to ignore
+.DS_Store
+
+# Ignore output file
+anomalydata_writeup.pdf
+presentation.pdf

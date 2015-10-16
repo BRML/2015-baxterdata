@@ -1,0 +1,1 @@
+Writeup of recorded anomaly data (on Baxter) for Andras' meeting in Erdotarcsa.
