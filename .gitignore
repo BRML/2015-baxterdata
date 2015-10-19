@@ -29,6 +29,9 @@
 # MacOS X files to ignore
 .DS_Store
 
+# Ignore riginal video files
+*.mov
+
 # Ignore output file
 anomalydata_writeup.pdf
 presentation.pdf
