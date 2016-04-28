@@ -17,6 +17,11 @@
     \hypersetup{colorlinks=true, allcolors=black}
 \usepackage[noabbrev, nameinlink]{cleveref}
 
+\usepackage[textsize=footnotesize,color=white,bordercolor=red,linecolor=red]{todonotes}
+\let\newtodo\todo
+% define your own comment environment if you like:
+\newcommand{\patrick}[1]{\newtodo[inline]{\color{magenta}Patrick says ``#1''}}
+
 \newcommand{\baxterdotnet}{Baxter.NET\xspace}
 \newcommand{\baxterrpc}{Baxter RPC\xspace}
 
@@ -249,7 +254,7 @@
         Both functions are callable via \verb|baxterWrapper.Limb.PidMoveToJointPositions| from our \baxterdotnet framework.
     
 \section{Description of Data Set}
-    The procedure described in the previous section was used to record two data sets of $N=100$ trials each; one without anomalous data and one with the control parameter, $k_{P,i}$, being multiplied by a factor of $f=10$ if an anomaly was sampled with $\Pi = 0.5$.
+    The procedure described in the previous section was used to record two data sets of $N=100$ trials each; one without anomalous data and one with the control parameter, $k_{P,i}$, being multiplied by a factor of $f=10$ if an anomaly was sampled with $\Pi = 0.5$.\patrick{0.5 is way to large!}
     In order to be able to compare both data sets the $p=10$ poses for the experiments were kept fixed.
     In particular, we used the poses 50, 47, 26, 27, 9, 61, 13, 55, 15 and 37 from the recorded set of 63 valid poses (see \cref{ssec:workspace}).
     
